@@ -1,0 +1,252 @@
+/* body{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+:root{
+    --bg-color: #020312;
+    --textcolor: #fff;
+    --main-color: red;
+    --second-color: gray;
+    --other-color: 12141c;
+    --h1-font: 3rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;   
+}
+
+
+#logoimg{
+    width: 100px;
+    height: 100px;
+     margin-right:300px ;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+#headercontent{
+    display: flex;
+    margin-left: 200px;
+    
+} */
+
+ body{
+    
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+:root{
+    --bg-color: #020312;
+    --textcolor: #fff;
+    --main-color: red;
+    --second-color: gray;
+    --other-color: 12141c;
+    --h1-font: 3rem;
+    --h2-font: 3.5rem;
+    --p-font: 1.1rem;   
+}
+
+
+
+/* first section design */
+ 
+ 
+    #introduction-text{
+    font-size: 3rem;
+      font-family: 'Alegreya', serif;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+ 
+  
+   
+}
+
+#menu-icon{
+    color: black;
+    font-size: 30px;
+    padding-right: 20px;
+}
+ 
+
+ header{
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;    
+    justify-content: space-around;
+     background: transparent;
+     padding: 2px 16% 15;
+     border-bottom: 1px solid transparent;
+     transition: all .40 ease;
+     position: fixed;
+
+}
+
+.navbar{
+    display: flex;
+    
+   
+   }
+
+ .logo{
+     height: 100px;
+ }
+
+   .navbar a:hover{
+    background-color: var(--main-color);
+  
+}
+
+.navbar a{
+    color: blue;
+    font-size: medium;
+    padding: 10px 15px;
+    margin: 0 2px;
+    border-radius: 0.5rem;
+    transition: all .40s ease ;
+    padding-right: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    
+
+}
+
+ header.sticky{
+    
+    background: white;
+    border-bottom: 1px solid ;
+    transition: .3s;
+}
+
+ #homesection{
+    background-image: url(Screenshot_20240223-070832.jpg);
+     background-size: cover;
+     background-position: center;
+     padding-bottom: 50px;
+     padding-top: 150px;
+}
+
+#Worship-with-usDiv{
+    display: flex;
+    justify-content: center;
+
+}
+
+#Worship-with-us{
+    padding: 20px;
+    border-radius: 0.5rem;
+    border:  rgb(255, 217, 0) solid 2px;
+    background: transparent;
+    color:  white;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#Worship-with-us:hover{
+    background:  rgb(255, 187, 0);
+    border:  2px solid  black;
+    transform: scale(1.01) translateY(-5px);
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 13px 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all .5s ease-out 0s;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width:770px) and (max-width:2000px){
+    #menu-icon{
+        display: none;
+    }
+}
+
+
+@media (max-width:770px){
+   
+   
+    #menu-icon{
+        display: block;
+color: #12141c;
+    }
+    #menu-icon:hover{
+      transform: scale(1.01) translateY(-5px);
+    }
+
+    .navbar{
+        position: absolute;
+        top: -600px;
+        right: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        text-align:left;
+        transition: all .40s ease;
+    }
+
+    .navbar.active{
+        top: 90px;
+        
+   } 
+
+    #homesection{
+     padding-bottom: 100px;
+     padding-top: 100px;
+}
+
+
+
+    #introduction-text{
+    font-size: 1.2rem;
+ align-items: center;
+ padding-top: 20px;
+   
+}
+
+
+#Worship-with-us{
+    padding: 10px;
+    font-size: 1rem;
+   
+} 
+
+
+#Worship-with-us:hover{
+    background:   rgb(255, 187, 0);
+    border:  2px solid  black;
+    transform: scale(1.01) translateY(-5px);
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 13px 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    transition: all .5s ease-out 0s;
+    cursor: pointer;
+}
+
+
+}
