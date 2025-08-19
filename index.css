@@ -176,6 +176,23 @@ html{
     cursor: pointer;
 }
 
+.about1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.aboutimg{
+    width: 600px;
+    height: 400px;
+}
+
+.firstaboutxt{
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
 
 @media only screen and (min-width:770px) and (max-width:2000px){
     #menu-icon{
@@ -248,5 +265,35 @@ color: #12141c;
     cursor: pointer;
 }
 
+#abt1{
+    display: flex;
+    flex-wrap:wrap;
+     padding: 8px;
+     
+}
+
+#about2{
+      display: flex;
+      flex-wrap: wrap-reverse;
+     
+}
+
+ .aboutimg{
+    width: 400px;
+    height: 200px;
+}
+
+.firstaboutxt{
+    margin-left: 1px;
+    font-size: 1rem;
+}
+
+}
+
+@media (max-width:420px){
+     .aboutimg{
+    width: 300px;
+    height: 200px;
+}
 
 }

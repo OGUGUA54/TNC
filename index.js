@@ -17,3 +17,14 @@ window.onscroll = () => {
      menu.classList.remove('bx-x');
      navbar.classList. remove('active');
 }
+
+window.sr = ScrollReveal ({
+    distance: '25px',
+      duration: 2500,
+      reset: true
+})
+
+sr.reveal('.firstaboutxt',{delay:400, origin:'right'})
+sr.reveal('#aboutimgdiv',{delay:200, origin:'bottom'})
+sr.reveal('#introduction-text',{delay:200, origin:'left'})
+sr.reveal('#Worship-with-usDiv',{delay:200, origin:'left'})
