@@ -24,7 +24,7 @@ window.sr = ScrollReveal ({
       reset: true
 })
 
-sr.reveal('.firstaboutxt',{delay:400, origin:'right'})
-sr.reveal('#aboutimgdiv',{delay:200, origin:'bottom'})
+sr.reveal('.firstaboutsectiontext',{delay:400, origin:'right'})
+sr.reveal('#firstaboutimg',{delay:200, origin:'bottom'})
 sr.reveal('#introduction-text',{delay:200, origin:'left'})
-sr.reveal('#Worship-with-usDiv',{delay:200, origin:'left'})
+sr.reveal('#Worship-with-usDiv',{delay:300, origin:'left'})
